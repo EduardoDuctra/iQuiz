@@ -16,6 +16,9 @@
 		37D5EE762E59EF53003F2648 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5EE752E59EF53003F2648 /* iQuizTests.swift */; };
 		37D5EE802E59EF53003F2648 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5EE7F2E59EF53003F2648 /* iQuizUITests.swift */; };
 		37D5EE822E59EF53003F2648 /* iQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5EE812E59EF53003F2648 /* iQuizUITestsLaunchTests.swift */; };
+		37D5EE8F2E5A0286003F2648 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5EE8E2E5A0286003F2648 /* QuestaoViewController.swift */; };
+		37D5EE912E5A3AFD003F2648 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5EE902E5A3AFD003F2648 /* Questao.swift */; };
+		37D5EE932E5B489A003F2648 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5EE922E5B489A003F2648 /* DesempenhoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		37D5EE7B2E59EF53003F2648 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D5EE7F2E59EF53003F2648 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		37D5EE812E59EF53003F2648 /* iQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37D5EE8E2E5A0286003F2648 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		37D5EE902E5A3AFD003F2648 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		37D5EE922E5B489A003F2648 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		37D5EE5D2E59EF4D003F2648 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				37D5EE952E5B5713003F2648 /* Model */,
+				37D5EE942E5B56EC003F2648 /* ViewController */,
 				37D5EE5E2E59EF4D003F2648 /* AppDelegate.swift */,
 				37D5EE602E59EF4D003F2648 /* SceneDelegate.swift */,
-				37D5EE622E59EF4D003F2648 /* ViewController.swift */,
 				37D5EE642E59EF4D003F2648 /* Main.storyboard */,
 				37D5EE672E59EF52003F2648 /* Assets.xcassets */,
 				37D5EE692E59EF52003F2648 /* LaunchScreen.storyboard */,
@@ -125,6 +132,24 @@
 				37D5EE812E59EF53003F2648 /* iQuizUITestsLaunchTests.swift */,
 			);
 			path = iQuizUITests;
+			sourceTree = "<group>";
+		};
+		37D5EE942E5B56EC003F2648 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37D5EE622E59EF4D003F2648 /* ViewController.swift */,
+				37D5EE8E2E5A0286003F2648 /* QuestaoViewController.swift */,
+				37D5EE922E5B489A003F2648 /* DesempenhoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		37D5EE952E5B5713003F2648 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37D5EE902E5A3AFD003F2648 /* Questao.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +286,9 @@
 				37D5EE632E59EF4D003F2648 /* ViewController.swift in Sources */,
 				37D5EE5F2E59EF4D003F2648 /* AppDelegate.swift in Sources */,
 				37D5EE612E59EF4D003F2648 /* SceneDelegate.swift in Sources */,
+				37D5EE912E5A3AFD003F2648 /* Questao.swift in Sources */,
+				37D5EE932E5B489A003F2648 /* DesempenhoViewController.swift in Sources */,
+				37D5EE8F2E5A0286003F2648 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
